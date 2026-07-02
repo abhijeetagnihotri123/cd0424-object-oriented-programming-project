@@ -18,6 +18,13 @@ class Process {
 
   // TODO: Declare any necessary private members
  private:
+  int pid_;
+  long runtime_;
+  long uptime_;
+  float cpu_utilization_;
+  std::string user_;
+  std::string command_;
+  std::string ram_;
 };
 
 #endif
